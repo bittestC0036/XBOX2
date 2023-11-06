@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="XBox._Video_"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XBox.Etc.UserControl.ICON"
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="50">
+    <Grid x:Name="tv_item_root">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Image    Grid.Column="0" Source="/Etc/Resources/Video.PNG"  />
+        <Label x:Name="TB_Header"  Grid.Column="1" Content="Hello"   />
+    </Grid>
+</UserControl>

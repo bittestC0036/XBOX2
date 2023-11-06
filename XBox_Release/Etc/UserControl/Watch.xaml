@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="XBox.Watch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XBox"
+        mc:Ignorable="d">
+    <Grid ShowGridLines="False" Background="LightGray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!--23 : 59 : 59 -->
+        <local:Number x:Name="Hour10"   Grid.Column="0" />
+        <local:Number x:Name="Hour1"    Grid.Column="1" />
+        <Grid Grid.Column="2" ShowGridLines="False">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Rectangle Grid.Row="1" Fill="Gray" />
+            <Rectangle Grid.Row="3" Fill="Gray" />
+        </Grid>
+        <local:Number x:Name="Min10"    Grid.Column="3" />
+        <local:Number x:Name="Min1"     Grid.Column="4" />
+        <Grid Grid.Column="5" ShowGridLines="False">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Rectangle Grid.Row="1" Fill="Gray" />
+            <Rectangle Grid.Row="3" Fill="Gray" />
+        </Grid>
+        <local:Number x:Name="Second10"  Grid.Column="6" />
+        <local:Number x:Name="Second1"   Grid.Column="7" />
+
+    </Grid>
+</UserControl>

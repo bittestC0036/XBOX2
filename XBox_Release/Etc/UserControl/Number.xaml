@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="XBox.Number"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XBox"
+             mc:Ignorable="d"
+             Background="LightGray">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition  Height="*" />
+            <RowDefinition  Height="6*" />
+            <RowDefinition  Height="*" />
+            <RowDefinition  Height="6*" />
+            <RowDefinition  Height="*" />
+        </Grid.RowDefinitions>
+
+        <Rectangle x:Name="part0_0" Grid.Column="0"  Grid.Row="0" Fill="Gray" />
+        <Rectangle x:Name="part0_1" Grid.Column="1"  Grid.Row="0" Fill="Gray"  />
+        <Rectangle x:Name="part0_2" Grid.Column="2"  Grid.Row="0" Fill="Gray"  />
+        <Rectangle x:Name="part1_0" Grid.Column="0"  Grid.Row="1" Fill="Gray"  />
+        <Rectangle x:Name="part1_2" Grid.Column="2"  Grid.Row="1" Fill="Gray"  />
+        <Rectangle x:Name="part2_0" Grid.Column="0"  Grid.Row="2" Fill="Gray"  />
+        <Rectangle x:Name="part2_1" Grid.Column="1"  Grid.Row="2" Fill="Gray"  />
+        <Rectangle x:Name="part2_2" Grid.Column="2"  Grid.Row="2" Fill="Gray"  />
+        <Rectangle x:Name="part3_0" Grid.Column="0"  Grid.Row="3" Fill="Gray"  />
+        <Rectangle x:Name="part3_2" Grid.Column="2"  Grid.Row="3" Fill="Gray"  />
+        <Rectangle x:Name="part4_0" Grid.Column="0"  Grid.Row="4" Fill="Gray"  />
+        <Rectangle x:Name="part4_1" Grid.Column="1"  Grid.Row="4" Fill="Gray"  />
+        <Rectangle x:Name="part4_2" Grid.Column="2"  Grid.Row="4" Fill="Gray"  />
+        <!--
+        <Rectangle x:Name="part0_0" Grid.Column="0"  Grid.Row="0" Fill="{Binding part0_0_Fill}" />
+        <Rectangle x:Name="part0_1" Grid.Column="1"  Grid.Row="0" Fill="{Binding part0_1_Fill}"  />
+        <Rectangle x:Name="part0_2" Grid.Column="2"  Grid.Row="0" Fill="{Binding part0_2_Fill}"  />
+
+        <Rectangle x:Name="part1_0" Grid.Column="0"  Grid.Row="1" Fill="{Binding part1_0_Fill}"  />
+        <Rectangle x:Name="part1_2" Grid.Column="2"  Grid.Row="1" Fill="{Binding part1_2_Fill}"  />
+
+        <Rectangle x:Name="part2_0" Grid.Column="0"  Grid.Row="2" Fill="{Binding part2_0_Fill}"  />
+        <Rectangle x:Name="part2_1" Grid.Column="1"  Grid.Row="2" Fill="{Binding part2_1_Fill}"  />
+        <Rectangle x:Name="part2_2" Grid.Column="2"  Grid.Row="2" Fill="{Binding part2_2_Fill}"  />
+
+        <Rectangle x:Name="part3_0" Grid.Column="0"  Grid.Row="3" Fill="{Binding part3_0_Fill}"  />
+        <Rectangle x:Name="part3_2" Grid.Column="2"  Grid.Row="3" Fill="{Binding part3_2_Fill}"  />
+
+        <Rectangle x:Name="part4_0" Grid.Column="0"  Grid.Row="4" Fill="{Binding part4_0_Fill}"  />
+        <Rectangle x:Name="part4_1" Grid.Column="1"  Grid.Row="4" Fill="{Binding part4_1_Fill}"  />
+        <Rectangle x:Name="part4_2" Grid.Column="2"  Grid.Row="4" Fill="{Binding part4_2_Fill}"  />
+-->
+    </Grid>
+</UserControl>
